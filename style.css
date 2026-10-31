@@ -343,3 +343,5 @@ h3 { font-size: 1.35rem; }
   .hero.hero-wide { grid-template-columns: 1fr; }
 }
 .full-wrap { margin-top: 2rem; }
+
+.page-hero .lead a { color: var(--accent); }

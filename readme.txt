@@ -88,3 +88,12 @@ Version 12 (October 31, 2026):
 - Site icon added: favicon.ico, favicon-32.png, apple-touch-icon.png (orange S on the dark background).
 - 12 Steps cover images now carry their sizes so the page doesn't jump while they load.
 - Updates page: the two October items show their exact dates (October 30 and October 31).
+
+Version 13 (October 31, 2026), from Sonny's decisions on the Oct 31 change sheet:
+- Sharing image for Home, Books, About, Updates, Contact is now assets/share-books.jpg (Coming Up Hard and 12 Steps). share-restless-tails.jpg removed.
+- Home intro line: "The Restless Tails trilogy and 12 Steps to a Happy Marriage are out now on Amazon." Books intro line: "Every S. Ramirez book in one place, each with its own page and a free sample."
+- 12 Steps on Home and Books now uses the back-cover tagline (Books also adds the twenty-three years line). One-Sentence Hook removed from the 12 Steps page. "What Is Inside" adds the bonus story. Book details now list Edition (Second Edition, 2025), Publisher (Orange Cat Press), and Status (Available now on Amazon).
+- About page: intro line names both books; new bio paragraph about 12 Steps.
+- Sample fixes: 12 Steps "quite possibly"; Inevitable Silence "had learned" and a paragraph break at "They crossed paths."
+- readme.txt hidden from the public by _redirects; new 404.html page for any missing address.
+- Hardcover confirmed live for all three Restless Tails books (Oct 31).
