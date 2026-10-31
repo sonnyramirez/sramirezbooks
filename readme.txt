@@ -81,3 +81,10 @@ Version 11 (October 30, 2026):
 - Contact page: build-note text removed.
 - Updates page: October 2026 news item added.
 - 12 Steps to a Happy Marriage: new front and full wrap cover; About section now uses the back-cover copy.
+
+Version 12 (October 31, 2026):
+- Site now publishes from GitHub (sonnyramirez/sramirezbooks, branch main) through Netlify.
+- Every page has its own search description and sharing tags, so a link posted on social media shows a title, a line from the book, and a cover. Book and sample pages use that book's cover; the other pages use assets/share-restless-tails.jpg (all three covers).
+- Site icon added: favicon.ico, favicon-32.png, apple-touch-icon.png (orange S on the dark background).
+- 12 Steps cover images now carry their sizes so the page doesn't jump while they load.
+- Updates page: the two October items show their exact dates (October 30 and October 31).
