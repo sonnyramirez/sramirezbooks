@@ -74,7 +74,7 @@ Added in v10: sample-12-steps-to-a-happy-marriage.html and Read a Sample buttons
 Version 11 (October 30, 2026):
 - New covers for all three Restless Tails books (assets/coming-up-hard-cover.jpg, by-design-cover.jpg, inevitable-silence-cover.jpg). Old covers and full wraps removed.
 - Book pages use the back-cover tagline and description from each book, plus formats, publisher, and status.
-- Book 1 status: Available now on Amazon. Books 2 and 3: Coming soon to Amazon. Change these lines when each book goes live.
+- Book statuses: all three Restless Tails books Available now on Amazon (Books 2 and 3 went live Oct 31, 2026).
 - Samples now come from the current editions (opening of Chapter 1).
 - Home page shows all three covers; "Website Purpose" section removed.
 - Books page: covers on every card; placeholder card removed.
