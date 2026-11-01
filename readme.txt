@@ -110,3 +110,9 @@ Version 14 (November 1, 2026):
 - 12 Steps page lists Formats: paperback, hardcover, and Kindle eBook.
 - Sharing image is now assets/share-covers.jpg (Coming Up Hard, Santino Ramos, 12 Steps). share-books.jpg removed.
 - Home, Books, About search descriptions name all three series/books.
+
+Version 15 (November 1, 2026):
+- Home: hero buttons now read Restless Tails, Two Doors In, Marriage Humor (Two Doors In button added). 12 Steps section drops its extra Amazon Author Page button; its cover now links to the book page like the others.
+- Books: one Amazon Author Page button at the bottom of the shelf instead of one under Restless Tails and one inside the 12 Steps card. Two Doors In card uses the full three-line opener from the back cover.
+- Santino Ramos page: search and sharing description uses the full opener and "Book One of the Two Doors In series," matching the other book pages.
+- Contact: intro line trimmed to "For book questions and reader mail, email is the best way to reach S. Ramirez."
