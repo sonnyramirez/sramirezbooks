@@ -116,3 +116,8 @@ Version 15 (November 1, 2026):
 - Books: one Amazon Author Page button at the bottom of the shelf instead of one under Restless Tails and one inside the 12 Steps card. Two Doors In card uses the full three-line opener from the back cover.
 - Santino Ramos page: search and sharing description uses the full opener and "Book One of the Two Doors In series," matching the other book pages.
 - Contact: intro line trimmed to "For book questions and reader mail, email is the best way to reach S. Ramirez."
+
+Version 16 (November 1, 2026), from Sonny's decisions on the Version 15 sheet:
+- Home: "Featured Series" section removed. Its line ("Call it coincidence or fate...") now sits under "Start the series," with a "Read a Sample of Book One" button.
+- Home: the covers at the top are now Coming Up Hard, Santino Ramos, and 12 Steps, in the same order as the sections below. Each opens its book page.
+- Phones: the top section no longer forces 70% of the screen height, so the covers sit right under the buttons.

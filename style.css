@@ -355,3 +355,9 @@ h3 { font-size: 1.35rem; }
   font-weight: bold;
 }
 .buy-row { margin-bottom: 0.85rem; }
+
+.series-sample { margin: 0 0 1.4rem; }
+.hero-trio { align-items: center; }
+@media (max-width: 820px) {
+  .hero { min-height: 0; }
+}
