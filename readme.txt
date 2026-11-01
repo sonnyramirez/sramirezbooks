@@ -97,3 +97,16 @@ Version 13 (October 31, 2026), from Sonny's decisions on the Oct 31 change sheet
 - Sample fixes: 12 Steps "quite possibly"; Inevitable Silence "had learned" and a paragraph break at "They crossed paths."
 - readme.txt hidden from the public by _redirects; new 404.html page for any missing address.
 - Hardcover confirmed live for all three Restless Tails books (Oct 31).
+
+Version 14 (November 1, 2026):
+- Two Doors In, Book 1: Santino Ramos added: two-doors-in-santino-ramos.html (back-cover copy word for word, details, buy buttons, full wrap) and sample-two-doors-in-santino-ramos.html (Chapter 1 opening from master TDI.b1.sr.master.SEPT.3.2026, through "...the last thing he ever did."). Covers: assets/two-doors-in-santino-ramos-cover.jpg (900 x 1376) and -full-wrap.jpg (1800 x 1350).
+- Two Doors In added to Home (own section), Books (wide card), About (intro line and one bio sentence), and Updates (November 1 item).
+- Buy buttons: every book page has Paperback, Hardcover, and Kindle eBook buttons linked to amazon.com/dp/ASIN, from Sonny's KDP Bookshelf. Sample pages' Amazon button goes to the paperback listing.
+  Coming Up Hard: PB B0HGPHH8N1, HC B0HP1535JT, Kindle B0HGNV6Z8B
+  By Design: PB B0HNXPQZPW, HC B0HNZNS3MM, Kindle B0HNY8LLM9
+  Inevitable Silence: PB B0HPHSH3BX, HC B0HPHBRWT2, Kindle B0HPHCN54R
+  12 Steps: PB B0GTWMF1SX, HC B0GTWNZ4SQ, Kindle B0GTTQ8M21
+  Two Doors In 1: PB B0H6CS2VGJ, HC B0H6FC29G5, Kindle B0GXYLCXGC
+- 12 Steps page lists Formats: paperback, hardcover, and Kindle eBook.
+- Sharing image is now assets/share-covers.jpg (Coming Up Hard, Santino Ramos, 12 Steps). share-books.jpg removed.
+- Home, Books, About search descriptions name all three series/books.

@@ -345,3 +345,13 @@ h3 { font-size: 1.35rem; }
 .full-wrap { margin-top: 2rem; }
 
 .page-hero .lead a { color: var(--accent); }
+
+.buy-label {
+  margin: 1.4rem 0 0.6rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.buy-row { margin-bottom: 0.85rem; }
