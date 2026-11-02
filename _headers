@@ -1,0 +1,11 @@
+# Security rules Netlify sends with every page (Version 18).
+# The site only loads its own files, so the browser is told to refuse anything else.
+# If you ever add an outside service (newsletter form, video, analytics),
+# its address has to be added to the Content-Security-Policy line or it will be blocked.
+
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()

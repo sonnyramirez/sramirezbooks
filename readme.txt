@@ -126,3 +126,8 @@ Version 17 (November 1, 2026), from Sonny's decisions on the Version 16 sheet:
 - About page: all three approved bio cuts. "blends anthropomorphic crime drama and animal noir with military tension and street survival"; "The stories move through gangs, prison, and old debts, and through the cost of trying to leave a violent life behind"; "He writes for readers who like characters that carry their past without asking for pity."
 - Motion (motion.js, loaded on every page, plus a Version 17 block in style.css): sections below the first screen fade and rise in once as they scroll into view; the Home top covers come in one after another on load; linked covers lift on hover or keyboard focus (computers only). All of it is off when a visitor's device asks for reduced motion, and nothing is hidden if the script doesn't run.
 - Home top covers: left as they are (Sonny, v16 sheet).
+
+Version 18 (November 2, 2026):
+- New _headers file: Netlify now sends security rules with every page. Browsers will only load the site's own files (pages, pictures, style.css, motion.js), won't let another site show these pages inside a frame, and won't guess file types. Camera, microphone, location, and payment access are turned off. Checked every page at computer and phone width with the rules on: no errors, no broken images, motion still works.
+- If an outside service is ever added (newsletter signup form, video, analytics), its address has to be added to the Content-Security-Policy line in _headers or the browser will block it.
+- By Design Kindle edition confirmed live (Nov 2). No page change needed; the Kindle button already pointed to B0HNY8LLM9.
