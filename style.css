@@ -361,3 +361,39 @@ h3 { font-size: 1.35rem; }
 @media (max-width: 820px) {
   .hero { min-height: 0; }
 }
+
+/* Version 17: motion. Everything here is off for visitors who ask their device for reduced motion. */
+@media (prefers-reduced-motion: no-preference) {
+  .motion .reveal {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  .motion .reveal.in-view {
+    opacity: 1;
+    transform: none;
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+
+  .hero-trio a { animation: cover-in 0.6s ease both; }
+  .hero-trio a:nth-child(2) { animation-delay: 0.12s; }
+  .hero-trio a:nth-child(3) { animation-delay: 0.24s; }
+
+  @keyframes cover-in {
+    from { opacity: 0; transform: translateY(14px); }
+    to { opacity: 1; transform: none; }
+  }
+}
+
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  a > .cover-image,
+  a > .card-cover {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+  a:hover > .cover-image,
+  a:hover > .card-cover,
+  a:focus-visible > .cover-image,
+  a:focus-visible > .card-cover {
+    transform: translateY(-6px);
+    box-shadow: 0 1.6rem 2.6rem rgba(0, 0, 0, 0.55);
+  }
+}

@@ -121,3 +121,8 @@ Version 16 (November 1, 2026), from Sonny's decisions on the Version 15 sheet:
 - Home: "Featured Series" section removed. Its line ("Call it coincidence or fate...") now sits under "Start the series," with a "Read a Sample of Book One" button.
 - Home: the covers at the top are now Coming Up Hard, Santino Ramos, and 12 Steps, in the same order as the sections below. Each opens its book page.
 - Phones: the top section no longer forces 70% of the screen height, so the covers sit right under the buttons.
+
+Version 17 (November 1, 2026), from Sonny's decisions on the Version 16 sheet:
+- About page: all three approved bio cuts. "blends anthropomorphic crime drama and animal noir with military tension and street survival"; "The stories move through gangs, prison, and old debts, and through the cost of trying to leave a violent life behind"; "He writes for readers who like characters that carry their past without asking for pity."
+- Motion (motion.js, loaded on every page, plus a Version 17 block in style.css): sections below the first screen fade and rise in once as they scroll into view; the Home top covers come in one after another on load; linked covers lift on hover or keyboard focus (computers only). All of it is off when a visitor's device asks for reduced motion, and nothing is hidden if the script doesn't run.
+- Home top covers: left as they are (Sonny, v16 sheet).
