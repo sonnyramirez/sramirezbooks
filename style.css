@@ -501,7 +501,7 @@ h3 { font-size: 1.35rem; }
 .flip-toggle { margin-top: 0.9rem; width: 100%; cursor: pointer; font: inherit; font-weight: bold; }
 .flip-toggle[hidden] { display: none; }
 @media (prefers-reduced-motion: no-preference) {
-  .flip-inner { transition: transform 0.7s ease; }
+  .flip-inner { transition: transform 0.7s ease-in-out; }
 }
 
 /* Books page: the back-cover description slides up over a cover when a mouse points at it. Phones never see it. */
@@ -549,6 +549,54 @@ h3 { font-size: 1.35rem; }
 .vt-inevitable-silence { view-transition-name: cover-inevitable-silence; }
 .vt-santino-ramos { view-transition-name: cover-santino-ramos; }
 .vt-12-steps { view-transition-name: cover-12-steps; }
+
+/* Version 24: buttons press in, the cover flip's shadow follows the turn, and a "New" label on recent Updates items. */
+.button:active { filter: brightness(0.9); }
+@media (prefers-reduced-motion: no-preference) {
+  .button { transition: transform 0.1s ease, filter 0.1s ease; }
+  .button:active { transform: translateY(1px) scale(0.98); }
+
+  /* While the cover turns, a shadow on the "table" narrows as the cover goes edge-on and spreads back out as it lands. */
+  .flip { position: relative; }
+  .flip::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 0.85rem;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.38);
+    opacity: 0;
+    pointer-events: none;
+  }
+  .flip.turning .cover-image { box-shadow: none; }
+  .flip.turning::before { animation: flip-shadow 0.7s linear both; }
+  @keyframes flip-shadow {
+    0%, 10% { opacity: 1; transform: none; }
+    20% { opacity: 0.98; transform: scaleX(0.97); }
+    30% { opacity: 0.91; transform: scaleX(0.83); }
+    40% { opacity: 0.73; transform: scaleX(0.5); }
+    45% { opacity: 0.6; transform: scaleX(0.27); }
+    50% { opacity: 0.45; transform: scaleX(0.04); }
+    55% { opacity: 0.6; transform: scaleX(0.27); }
+    60% { opacity: 0.73; transform: scaleX(0.5); }
+    70% { opacity: 0.91; transform: scaleX(0.83); }
+    80% { opacity: 0.98; transform: scaleX(0.97); }
+    90%, 100% { opacity: 1; transform: none; }
+  }
+}
+
+.new-mark {
+  display: inline-block;
+  margin-left: 0.6rem;
+  padding: 0.1rem 0.55rem;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  color: var(--accent);
+  font-size: 0.72rem;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  vertical-align: 0.1em;
+}
 
 /* Version 20: printing any page gives only a copyright notice, not the page itself. */
 @media print {

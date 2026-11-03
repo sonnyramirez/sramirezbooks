@@ -41,13 +41,42 @@
       var turned = flip.classList.toggle('flipped');
       button.setAttribute('aria-pressed', turned ? 'true' : 'false');
       button.textContent = turned ? 'See the front cover' : 'See the back cover';
+      if (!reduce) {
+        // Restart the shadow that follows the turn (Version 24).
+        flip.classList.remove('turning');
+        void flip.offsetWidth;
+        flip.classList.add('turning');
+        window.clearTimeout(flip.turnTimer);
+        flip.turnTimer = window.setTimeout(function () { flip.classList.remove('turning'); }, 750);
+      }
     });
+  });
+
+  // 3. Buttons press in when tapped (Version 24). Phones only show the pressed
+  //    look while a touch listener exists, so this one does nothing else.
+  document.addEventListener('touchstart', function () {}, { passive: true });
+
+  // 4. A "New" label on Updates items from the last 30 days (Version 24).
+  //    Each item carries its date as data-date="YYYY-MM-DD"; items without one never get the label.
+  var now = Date.now();
+  var dated = document.querySelectorAll('[data-date]');
+  Array.prototype.forEach.call(dated, function (item) {
+    var parts = item.getAttribute('data-date').split('-');
+    var when = new Date(+parts[0], +parts[1] - 1, +parts[2]).getTime();
+    var days = (now - when) / 86400000;
+    var meta = item.querySelector('.book-meta');
+    if (meta && days >= 0 && days < 30) {
+      var mark = document.createElement('span');
+      mark.className = 'new-mark';
+      mark.textContent = 'New';
+      meta.appendChild(mark);
+    }
   });
 
   if (reduce || !('IntersectionObserver' in window)) return;
   root.classList.add('motion');
 
-  // 3. Sections fade and rise in once, the first time they scroll into view (Version 17).
+  // 5. Sections fade and rise in once, the first time they scroll into view (Version 17).
   var items = document.querySelectorAll('main > .section, main > .page-hero');
   var seen = new IntersectionObserver(function (entries) {
     entries.forEach(function (entry) {
@@ -68,7 +97,7 @@
     }
   });
 
-  // 4. The Restless Tails reading-order line draws itself in once (Version 21).
+  // 6. The Restless Tails reading-order line draws itself in once (Version 21).
   var orders = document.querySelectorAll('.reading-order');
   var drawn = new IntersectionObserver(function (entries) {
     entries.forEach(function (entry) {

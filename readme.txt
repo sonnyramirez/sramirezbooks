@@ -152,3 +152,10 @@ Version 22 (November 3, 2026):
 
 Version 23 (November 3, 2026):
 - Coming Up Hard tagline now matches the printed cover, with the comma: "Raised by the state, and taken over by the streets." Changed on the Home page, Books page, and the Coming Up Hard page (including its search and sharing description).
+
+Version 24 (November 3, 2026), from Sonny's picks on Animation-Ideas-Round2-sramirezbooks.docx:
+- Buttons press in: every button sinks in slightly and darkens a little for the moment it's pressed or tapped, the way a real button gives under a finger. Works on phones. With reduced motion on, the button only darkens.
+- Cover flip shadow: on the five book pages, the shadow under the cover now narrows as the cover turns on its edge and spreads back out as it lands, like a hardcover flipped on a table. The flip itself is the same 0.7 seconds, now easing in and out evenly so the shadow lines up with the turn. Off with reduced motion (the cover still swaps instantly).
+- Updates page: items dated in the last 30 days show a small orange "New" label next to the date. The label goes away by itself after 30 days. It only appears on items that carry their date as data-date="YYYY-MM-DD" on the article line, so when a new Updates item is added, give it a data-date. Items dated only "June 2026" never get the label.
+- Not done, by Sonny's choice: cover shine (his covers are glossy, but he said don't do it), cover settling in, 3D tilt, letter-spacing headings, darker edges on samples, scroll shadow, and speeding up the reading-order line (left at 1.6 seconds).
+- REMINDER for later: Sonny wants a Two Doors In reading-order line, the same as the Restless Tails one, once Victoria Price and Lorenzo Ramos are both on the site. Build it when Book 3 goes up.
