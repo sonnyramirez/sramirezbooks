@@ -45,7 +45,13 @@
 <section class="section book-detail">
   <aside class="detail-cover">
     <div class="hero-card">
-      <img class="cover-image vt-by-design" src="assets/by-design-cover.jpg" alt="Restless Tails Book 2: By Design cover" width="900" height="1350">
+      <div class="flip">
+        <div class="flip-inner">
+          <img class="cover-image flip-front vt-by-design" src="assets/by-design-cover.jpg" alt="Restless Tails Book 2: By Design cover" width="900" height="1350">
+          <img class="cover-image flip-back" src="assets/by-design-back.jpg" alt="Back cover of Restless Tails Book 2: By Design" width="900" height="1350">
+        </div>
+      </div>
+      <button class="button secondary flip-toggle" type="button" aria-pressed="false" hidden>See the back cover</button>
     </div>
   </aside>
 

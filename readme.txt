@@ -143,6 +143,9 @@ Version 21 (November 3, 2026), from the approved recommendation in Animation-Ide
 - Restless Tails reading order: a line connecting Book One, Book Two, and Book Three (with "Start here" under Book One) on the Home and Books pages. It draws itself in once when it scrolls into view.
 - Sample pages: a thin orange bar across the top of the screen fills in as the reader moves through the sample.
 - Page-to-page fade: pages fade into each other instead of blinking, and a cover glides from the Books page into its spot on that book's page. Works in Chrome, Edge, and Safari; other browsers load pages normally.
-- Cover flip: the Santino Ramos and 12 Steps book pages have a "See the back cover" button that turns the cover over. New files: assets/two-doors-in-santino-ramos-back.jpg and assets/12-steps-happy-marriage-back.jpg (cut from the full wraps). The Restless Tails books need their full-wrap or back-cover files before they can get the same button.
+- Cover flip: the Santino Ramos and 12 Steps book pages have a "See the back cover" button that turns the cover over. New files: assets/two-doors-in-santino-ramos-back.jpg and assets/12-steps-happy-marriage-back.jpg (cut from the full wraps). Version 22 adds it to the three Restless Tails pages.
 - Books page: pointing a mouse at a Restless Tails cover slides that book's back-cover description up over the cover. Phones don't show it.
 - All motion stays off for visitors who ask their device for reduced motion. The code is in motion.js and the Version 21 block of style.css.
+
+Version 22 (November 3, 2026):
+- "See the back cover" button added to all three Restless Tails book pages. New files: assets/coming-up-hard-back.jpg, by-design-back.jpg, inevitable-silence-back.jpg, cut from Sonny's KDP cover files (Book 1 and Book 3 hardcover wraps, Book 2 paperback wrap, Oct 2026).
