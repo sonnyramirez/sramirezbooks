@@ -138,3 +138,11 @@ Version 19 (November 2, 2026):
 
 Version 20 (November 2, 2026):
 - Printing any page (or saving it as a PDF from the browser's Print button) now gives a single page with only "(c) 2026 S. Ramirez. All rights reserved. To read more, visit sramirezbooks.com." None of the page content prints. This replaces the Version 19 print fix. It does not stop screenshots or copy and paste. The rule is at the end of style.css.
+
+Version 21 (November 3, 2026), from the approved recommendation in Animation-Ideas-sramirezbooks.docx:
+- Restless Tails reading order: a line connecting Book One, Book Two, and Book Three (with "Start here" under Book One) on the Home and Books pages. It draws itself in once when it scrolls into view.
+- Sample pages: a thin orange bar across the top of the screen fills in as the reader moves through the sample.
+- Page-to-page fade: pages fade into each other instead of blinking, and a cover glides from the Books page into its spot on that book's page. Works in Chrome, Edge, and Safari; other browsers load pages normally.
+- Cover flip: the Santino Ramos and 12 Steps book pages have a "See the back cover" button that turns the cover over. New files: assets/two-doors-in-santino-ramos-back.jpg and assets/12-steps-happy-marriage-back.jpg (cut from the full wraps). The Restless Tails books need their full-wrap or back-cover files before they can get the same button.
+- Books page: pointing a mouse at a Restless Tails cover slides that book's back-cover description up over the cover. Phones don't show it.
+- All motion stays off for visitors who ask their device for reduced motion. The code is in motion.js and the Version 21 block of style.css.

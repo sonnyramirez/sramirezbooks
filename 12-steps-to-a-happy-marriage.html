@@ -45,7 +45,13 @@
 <section class="section book-detail">
   <aside class="detail-cover">
     <div class="hero-card">
-      <img class="cover-image" src="assets/12-steps-happy-marriage-front.jpg" alt="12 Steps to a Happy Marriage cover" width="900" height="1390">
+      <div class="flip">
+        <div class="flip-inner">
+          <img class="cover-image flip-front vt-12-steps" src="assets/12-steps-happy-marriage-front.jpg" alt="12 Steps to a Happy Marriage cover" width="900" height="1390">
+          <img class="cover-image flip-back" src="assets/12-steps-happy-marriage-back.jpg" alt="Back cover of 12 Steps to a Happy Marriage" width="900" height="1390">
+        </div>
+      </div>
+      <button class="button secondary flip-toggle" type="button" aria-pressed="false" hidden>See the back cover</button>
     </div>
   </aside>
 
