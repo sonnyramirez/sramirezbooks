@@ -134,5 +134,7 @@ Version 18 (November 2, 2026):
 
 Version 19 (November 2, 2026):
 - About page: author photo added beside the bio (assets/s-ramirez-author.jpg, 800 x 1200). On phones it sits above the bio.
-- Printing a page now prints every section, including ones the visitor never scrolled to (style.css, end of file).
 - motion.js: sections now appear as soon as any part of them scrolls into view, so a very tall section can never get stuck invisible.
+
+Version 20 (November 2, 2026):
+- Printing any page (or saving it as a PDF from the browser's Print button) now gives a single page with only "(c) 2026 S. Ramirez. All rights reserved. To read more, visit sramirezbooks.com." None of the page content prints. This replaces the Version 19 print fix. It does not stop screenshots or copy and paste. The rule is at the end of style.css.

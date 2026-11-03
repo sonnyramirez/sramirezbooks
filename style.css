@@ -398,7 +398,17 @@ h3 { font-size: 1.35rem; }
   }
 }
 
-/* Version 19: print every section, even ones the visitor never scrolled to. */
+/* Version 20: printing any page gives only a copyright notice, not the page itself. */
 @media print {
-  .motion .reveal { opacity: 1; transform: none; }
+  body > * { display: none !important; }
+  body { background: #fff !important; }
+  body::before {
+    content: "\00A9  2026 S. Ramirez. All rights reserved.\A\A To read more, visit sramirezbooks.com";
+    white-space: pre-wrap;
+    display: block;
+    margin: 3in auto 0;
+    text-align: center;
+    color: #000;
+    font: 16pt/1.5 Georgia, "Times New Roman", serif;
+  }
 }
