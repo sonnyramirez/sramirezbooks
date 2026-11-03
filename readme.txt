@@ -149,3 +149,6 @@ Version 21 (November 3, 2026), from the approved recommendation in Animation-Ide
 
 Version 22 (November 3, 2026):
 - "See the back cover" button added to all three Restless Tails book pages. New files: assets/coming-up-hard-back.jpg, by-design-back.jpg, inevitable-silence-back.jpg, cut from Sonny's KDP cover files (Book 1 and Book 3 hardcover wraps, Book 2 paperback wrap, Oct 2026).
+
+Version 23 (November 3, 2026):
+- Coming Up Hard tagline now matches the printed cover, with the comma: "Raised by the state, and taken over by the streets." Changed on the Home page, Books page, and the Coming Up Hard page (including its search and sharing description).
