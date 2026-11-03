@@ -131,3 +131,8 @@ Version 18 (November 2, 2026):
 - New _headers file: Netlify now sends security rules with every page. Browsers will only load the site's own files (pages, pictures, style.css, motion.js), won't let another site show these pages inside a frame, and won't guess file types. Camera, microphone, location, and payment access are turned off. Checked every page at computer and phone width with the rules on: no errors, no broken images, motion still works.
 - If an outside service is ever added (newsletter signup form, video, analytics), its address has to be added to the Content-Security-Policy line in _headers or the browser will block it.
 - By Design Kindle edition confirmed live (Nov 2). No page change needed; the Kindle button already pointed to B0HNY8LLM9.
+
+Version 19 (November 2, 2026):
+- About page: author photo added beside the bio (assets/s-ramirez-author.jpg, 800 x 1200). On phones it sits above the bio.
+- Printing a page now prints every section, including ones the visitor never scrolled to (style.css, end of file).
+- motion.js: sections now appear as soon as any part of them scrolls into view, so a very tall section can never get stuck invisible.

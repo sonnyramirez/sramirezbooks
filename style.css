@@ -397,3 +397,8 @@ h3 { font-size: 1.35rem; }
     box-shadow: 0 1.6rem 2.6rem rgba(0, 0, 0, 0.55);
   }
 }
+
+/* Version 19: print every section, even ones the visitor never scrolled to. */
+@media print {
+  .motion .reveal { opacity: 1; transform: none; }
+}

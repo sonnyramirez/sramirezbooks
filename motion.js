@@ -16,7 +16,7 @@
         seen.unobserve(entry.target);
       }
     });
-  }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+  }, { rootMargin: '0px 0px -8% 0px', threshold: 0 });
 
   items.forEach(function (el) {
     var box = el.getBoundingClientRect();
