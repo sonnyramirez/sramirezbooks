@@ -598,6 +598,13 @@ h3 { font-size: 1.35rem; }
   vertical-align: 0.1em;
 }
 
+/* Version 26: cookbook sample (recipe photo, yield line, ingredient and direction lists) */
+.sample-text .recipe-photo { margin: 1rem 0 1.5rem; max-width: 520px; }
+.sample-text .recipe-yield { color: var(--muted); font-style: italic; }
+.sample-text .sample-sign { font-style: italic; text-align: right; }
+.sample-text .recipe-list { padding-left: 1.4rem; color: #eee4da; font-size: 1.05rem; line-height: 1.6; }
+.sample-text .recipe-list li { margin-bottom: 0.45rem; }
+
 /* Version 20: printing any page gives only a copyright notice, not the page itself. */
 @media print {
   body > * { display: none !important; }
