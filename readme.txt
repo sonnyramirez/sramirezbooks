@@ -170,3 +170,6 @@ Version 26 (November 11, 2026):
 - Sharing image: the cookbook pages use share-covers.jpg, not the cookbook cover, because the cover shows Sonny and he doesn't want his photo in sharing previews.
 - New images: assets/chicano-style-cooking-front.jpg and -back.jpg (900 x 1350), -full-wrap.jpg (1800 x 1325), all cut from the KDP full cover PDF, and -tortillas.jpg (800 x 829) from the manuscript.
 - Sample typo fixes (Sonny should fix these in his master too): "right." to "right?"; "comfort me" to "comforted me"; a period after "when I was young" and after "any longer"; "a tortillas" to "a tortilla"; commas in "I do know why, I just" and "all the food, drink"; "funky ass friends," with the comma inside the quote; "my mother use to use lard or how we said it Manteca" to "my mother used to use lard, or how we said it, manteca"; "She said, " with a comma; a closing quote after "I perfected it."
+
+Version 27 (November 11, 2026):
+- The Chicano Style Cooking Kindle eBook is live (Sonny, Nov 11). Added a Kindle eBook button to the book page (amazon.com/dp/B0HRB6D3LY). Formats now say "Paperback and Kindle eBook," and the book page and Books card status now say "Available now on Amazon." The November 11 Updates item now says the book is out in paperback and Kindle eBook. Still no hardcover.
