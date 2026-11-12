@@ -173,3 +173,7 @@ Version 26 (November 11, 2026):
 
 Version 27 (November 11, 2026):
 - The Chicano Style Cooking Kindle eBook is live (Sonny, Nov 11). Added a Kindle eBook button to the book page (amazon.com/dp/B0HRB6D3LY). Formats now say "Paperback and Kindle eBook," and the book page and Books card status now say "Available now on Amazon." The November 11 Updates item now says the book is out in paperback and Kindle eBook. Still no hardcover.
+
+Version 28 (November 11, 2026):
+- Sonny approved a full punctuation and typo pass on the cookbook manuscript. Claude made a corrected master, CB.6x9.CORRECTED.NOV.11.2026.docx (same layout, same page count), with every fix listed in sramirezbooks_Cookbook_Fixes_Nov11_2026.docx. Sonny uploads the new interior to KDP himself.
+- The Chicano Style Cooking sample now matches the corrected master word for word (Introduction and Homemade Tortillas).
